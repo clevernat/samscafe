@@ -1,0 +1,114 @@
+/* RESET CODE */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+    font-family: 'Philosopher', sans-serif;
+}
+
+
+:scope{
+    --outer-color:#9e140d;
+    --inner-color:#f3d346;
+    /* --light-grey-color:#faf8f8; */
+    /* --light-grey-color:#f7ebeb; */
+    --white-color:#fff;
+    --footer-color:#756868;
+     --light-grey-color:#faf9f9;
+}
+
+
+
+/* REFRACTED CODE */
+.form-heading h1, .image-logo{
+    margin-bottom: 1rem;
+}
+
+
+input[type="number"], input[type="password"], .form-button button{
+    width: 100%;
+    outline-color: var(--outer-color);
+    outline-style: none;
+}
+
+
+input[type="number"], input[type="password"], ::placeholder{
+    font-size: 1.3rem;
+}
+
+
+
+
+/* MAIN CODE */
+.form-heading h3{
+    font-size: 1.5rem;
+    color: var(--outer-color);
+    text-align: center;
+    padding: 0.65rem 0 0.75rem;
+    font-weight: bolder;
+}
+
+
+#form-display{
+    display: flex;
+    align-items: center;
+    height: 95vh;
+}
+
+
+.inner-circle{
+    margin: auto;
+    max-width: 390px;
+    background: var(--light-grey-color);
+    padding: 0 1.3rem 2rem;
+}
+
+
+.image-logo {
+    text-align: center;
+    position: relative;
+    top: 1rem;
+} 
+
+
+img{
+    width: 35%;
+    border-radius: 100%;
+}
+
+
+label{
+    font-size: 1.2rem;
+    padding-left: 0.2rem;
+}
+
+
+input[type="number"], input[type="password"]{
+    /* margin-bottom: 0.5rem; */
+    margin-bottom: 18px;
+    padding: 0.6rem;
+    border: var(--outer-color) 1px solid;
+    text-indent: 0.2rem;
+}
+
+
+.form-button button{
+    /* margin-top: 0.8rem; */
+    margin-top: 20px;
+    padding: 0.6rem;
+    border: var(--outer-color) 1px solid;
+    font-size: 1.3rem;
+    background-color: var(--outer-color);
+    color: var(--white-color);
+}
+
+.footer{
+    text-align: center;
+    margin-top: 1.6rem;
+    color: var(--footer-color);
+}
+
+
+
+
